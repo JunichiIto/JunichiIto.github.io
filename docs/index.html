@@ -1,0 +1,117 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Junichi Ito's portal site.">
+    <meta name="author" content="Junichi Ito">
+    <title>Junichi Ito</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' }}" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:title" content="Junichi Ito">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jnito.com/">
+    <meta property="og:image" content="{{ site.gravator_url }}?s=750">
+    <meta property="og:description" content="Junichi Ito&#39;s portal site.">
+    <meta name="twitter:image:src" content="{{ site.gravator_url }}?s=750">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Junichi Ito">
+    <meta name="twitter:description" content="Junichi Ito&#39;s portal site.">
+
+    <link rel="shortcut icon" href="{{ site.gravator_url }}?s=16" >
+
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46693484-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-46693484-3');
+    </script>
+</head>
+
+<body>
+<!-- Header
+================================================== -->
+<header id="home">
+
+    <div class="row banner">
+        <div class="banner-text">
+            <h1 class="responsive-headline">I'm Junichi Ito.</h1>
+            <h3><span>Programmer, blogger, musician.</span></h3>
+            <hr />
+            <ul class="social">
+                {% include social_links.html %}
+            </ul>
+        </div>
+    </div>
+
+</header> <!-- Header End -->
+
+
+<!-- About Section
+================================================== -->
+<section id="about">
+
+    <div class="row">
+
+        <div class="three columns profile-pic-container">
+
+            <img src="{{ site.gravatar_url }}" alt="{{ site.title }}" class="profile-pic">
+
+        </div>
+
+        <div class="nine columns main-col">
+
+            <h2>About Junichi Ito</h2>
+
+            <p>
+                Ruby programmer at <a href="https://www.sonicgarden.jp/">SonicGarden, Inc.</a>
+                <br>
+                Lives in <a href="https://ja.wikipedia.org/wiki/%E8%A5%BF%E8%84%87%E5%B8%82">Nishiwaki, Hyogo, Japan</a>
+            </p>
+
+            <h2>Works</h2>
+
+            <p>
+                Book: <a href="https://gihyo.jp/book/2021/978-4-297-12437-3">Introduction to Ruby programming for future professionals</a>
+                <br>
+                Translation: <a href="https://leanpub.com/everydayrailsrspec-jp">Everyday Rails Testing with RSpec</a>
+            </p>
+
+        </div> <!-- end .main-col -->
+
+    </div>
+
+</section> <!-- About Section End-->
+
+<!-- footer
+================================================== -->
+<footer>
+
+    <div class="row">
+
+        <div class="twelve columns">
+
+            <ul class="social-links">
+                {% include social_links.html %}
+            </ul>
+
+            <ul class="copyright">
+                <li>&copy; Copyright 2017 Junichi Ito</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</footer> <!-- Footer End-->
+
+</body>
+</html>

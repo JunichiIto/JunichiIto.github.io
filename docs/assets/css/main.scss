@@ -1,0 +1,12 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "fonts";
+@import "fontello/fontello";
+@import "qiita-font";
+@import "default";
+@import "layout";
+@import "media-queries";
+@import "magnific-popup";
