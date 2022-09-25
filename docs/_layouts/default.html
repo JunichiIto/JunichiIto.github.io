@@ -1,0 +1,41 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Junichi Ito's portal site.">
+    <meta name="author" content="Junichi Ito">
+    <title>Junichi Ito</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' }}" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:title" content="Junichi Ito">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jnito.com/">
+    <meta property="og:image" content="{{ site.gravatar_url }}?s=750">
+    <meta property="og:description" content="Junichi Ito&#39;s portal site.">
+    <meta name="twitter:image:src" content="{{ site.gravatar_url }}?s=750">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Junichi Ito">
+    <meta name="twitter:description" content="Junichi Ito&#39;s portal site.">
+
+    <link rel="shortcut icon" href="{{ site.gravatar_url }}?s=16" >
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46693484-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-46693484-3');
+    </script>
+</head>
+
+<body>
+{{ content }}
+</body>
+</html>
